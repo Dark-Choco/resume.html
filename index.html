@@ -1,211 +1,153 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Chris Chung Resume</title>
-    <link rel="stylesheet" href="styles.css">
-
-</head>
-
-
-<hr>
-
-<head>
-    <meta charset="UTF-8">
-    <title>Chris Chung</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chris Chung — Resume</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-       <!-- HEADER -->
-       <header>
-           <h1>Chris Chung</h1>
-           </p>
-       </header>
 
-       <!-- MAIN WRAPPER: aside + main content side by side -->
-       <!-- Source: https://www.programiz.com/html/aside -->
-       <div class="wrapper">
-           <!-- LEFT SIDEBAR -->
-           <aside class="sidebar">
-               <img src="selfie.JPG" alt="Profile Picture" class="profile-pic">
-               <h3>Contact</h3>
-               <p>chungc29@msu.edu</p>
-               <p>517-918-0735</p>
-               <p>East Lansing, MI</p>
-               <h3>Links</h3>
-               <p><a href="https://github.com/Dark-Choco">GitHub</a></p>
-               <p><a href="https://www.linkedin.com/in/chrisschung/">LinkedIn</a></p>
-               <p><a href="https://www.instagram.com/__.taehyunn/">Instagram</a></p>
-               <h3>Skills</h3>
-               <p>Python</p>
-               <p>MS Excel</p>
-               <p>PowerPoint</p>
-               <p>Canva</p>
-               <p>AI-assisted tools</p>
-               <h3>Languages</h3>
-               <p>English (Fluent)</p>
-               <p>Korean (Native)</p>
-               <h3>Certifications</h3>
-               <p>CPR (2024)</p>
-               <h3>Interests</h3>
-               <p>Game Development</p>
-               <p>Software Engineering</p>
-               <p>Robotics, AI, UX</p>
-               <h3>Work Eligibility</h3>
-               <p>U.S. Citizen</p>
-           </aside>
-           <!-- RIGHT MAIN CONTENT -->
-           <main class="main-content">
-               <div class="card">
-                   <h1>Education</h1>
-                   <h2>Michigan State University</h2>
-                   <h4>College of Communication Arts and Sciences</h4>
-                   <p>Expected May 2028</p>
-                   <h2>Lansing Community College</h2>
-                   <h4>Fall 2024 - Spring 2025</h4>
-                   <p>Completed foundational coursework supporting transition to Michigan State University</p>
-               </div>
-               <div class="card">
-                   <h1>Work Experience</h1>
-                   <h2>KinderCare - Preschool Teacher; Okemos, MI</h2>
-                   <h4>May 2024 - April 2025</h4>
-                   <p>Led daily structured activities in a fast-paced environment, managing multiple priorities and maintaining safety standards.</p>
-                   <p>Communicated effectively with parents, staff, and supervisors to coordinate schedules and progress updates.</p>
-                   <p>Observed and documented behavioral patterns to adapt activities and improve engagement outcomes.</p>
-                   <p>Developed strong problem-solving, time management, and interpersonal skills.</p>
-                   <h2>Charlie Kang's - Server (part-time); East Lansing, MI</h2>
-                   <h4>May 2024 - Present</h4>
-                   <p>Served in a high-volume restaurant environment, coordinating with team members during peak hours.</p>
-                   <p>Demonstrated reliability and communication while balancing work with coursework.</p>
-               </div>
-               <div class="card">
-                   <h1>Academic Projects</h1>
-                   <h2>LikeLion Hackathon & Ideathon</h2>
-                   <h4>Spring 2024</h4>
-                   <p>Developed application prototypes involving front-end (Python) and back-end (Figma) components.</p>
-                   <p>Awarded 2nd Place among participating teams.</p>
-                   <h2>Pyeon Lab Website - Pyeonlab.org</h2>
-                   <h4>Spring 2024</h4>
-                   <p>Collaborated as an early team member to rebuild an academic lab website.</p>
-                   <p>Assisted in defining site structure and UI layout.</p>
-               </div>
-               <div class="card">
-                   <h1>Leadership Experience and Activities</h1>
-                   <h2>Computer Science Club</h2>
-                   <h4>Fall 2021 - Summer 2023 | President (2022-2023), Vice President (2021-2022)</h4>
-                   <p>Led workshops, coding challenges, and networking events</p>
-                   <h2>Asian Culture Club</h2>
-                   <h4>Fall 2021 - Summer 2023 | President (2022-2023), Member (2021-2022)</h4>
-                   <p>Planned large-scale events and created digital marketing materials using Photoshop</p>
-                   <h2>Samsung Medical Center Volunteer</h2>
-                   <h4>July 2015 - October 2019</h4>
-                   <p>Lead Student Volunteer supporting pediatric patients in a clinical setting</p>
-               </div>
-               <div class="card">
-                   <h1>Honors</h1>
-                   <h3>Graduated with honors in high school</h3>
-                   <h3>Chosen as honor student in LCC</h3>
-               </div>
+<nav class="site-nav">
+    <div class="nav-brand">
+        <span class="status-dot"></span>
+        CHRIS CHUNG
+    </div>
+    <div class="nav-links">
+        <a href="index.html" class="active">Resume</a>
+        <a href="work.html">Work</a>
+        <a href="inspirations.html">Inspirations</a>
+    </div>
+    <div class="nav-external">
+        <a href="https://github.com/Dark-Choco" target="_blank">GitHub ↗</a>
+        <a href="https://chrischung311.itch.io" target="_blank">itch.io ↗</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <span class="eyebrow">LOG 01 — RESUME</span>
+    <h1>Chris Chung</h1>
+    <p class="subtitle">Game Development student at Michigan State University. East Lansing, MI.</p>
+</header>
+
+<div class="page-wrap">
+    <div class="resume-grid">
+
+        <!-- SIDEBAR -->
+        <aside>
+            <div class="panel">
+                <img src="selfie.JPG" alt="Profile Picture" class="profile-pic">
+
+                <h3>Contact</h3>
+                <p>chungc29@msu.edu</p>
+                <p>517-918-0735</p>
+                <p>East Lansing, MI</p>
+
+                <h3>Links</h3>
+                <p><a href="https://github.com/Dark-Choco" target="_blank">GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/chrisschung/" target="_blank">LinkedIn</a></p>
+                <p><a href="https://chrischung311.itch.io" target="_blank">itch.io (Games)</a></p>
+                <p><a href="https://www.instagram.com/__.taehyunn/" target="_blank">Instagram</a></p>
+
+                <h3>Skills</h3>
+                <div class="tag-row">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">Game Design</span>
+                    <span class="tag">Excel</span>
+                    <span class="tag">PowerPoint</span>
+                    <span class="tag">Canva</span>
+                    <span class="tag">AI-assisted tools</span>
+                </div>
+
+                <h3>Languages</h3>
+                <p>English (Fluent)</p>
+                <p>Korean (Native)</p>
+
+                <h3>Certifications</h3>
+                <p>CPR (2024)</p>
+
+                <h3>Interests</h3>
+                <p>Game Development</p>
+                <p>Software Engineering</p>
+                <p>Robotics, AI, UX</p>
+
+                <h3>Work Eligibility</h3>
+                <p>U.S. Citizen</p>
+            </div>
+        </aside>
+
+        <!-- MAIN -->
+        <main>
+            <div class="section-block">
+                <h2>Education</h2>
+                <div class="entry">
+                    <h4>Michigan State University</h4>
+                    <div class="meta">College of Communication Arts and Sciences · Expected May 2028</div>
+                </div>
+                <div class="entry">
+                    <h4>Lansing Community College</h4>
+                    <div class="meta">Fall 2024 – Spring 2025</div>
+                    <p>Completed foundational coursework supporting transition to Michigan State University.</p>
+                </div>
+            </div>
+
+            <div class="section-block">
+                <h2>Work Experience</h2>
+                <div class="entry">
+                    <h4>KinderCare — Preschool Teacher</h4>
+                    <div class="meta">Okemos, MI · May 2024 – April 2025</div>
+                    <p>Led daily structured activities in a fast-paced environment, managing multiple priorities and maintaining safety standards.</p>
+                    <p>Communicated effectively with parents, staff, and supervisors to coordinate schedules and progress updates.</p>
+                    <p>Observed and documented behavioral patterns to adapt activities and improve engagement outcomes.</p>
+                </div>
+                <div class="entry">
+                    <h4>Charlie Kang's — Server (Part-Time)</h4>
+                    <div class="meta">East Lansing, MI · May 2024 – Present</div>
+                    <p>Served in a high-volume restaurant environment, coordinating with team members during peak hours.</p>
+                    <p>Demonstrated reliability and communication while balancing work with coursework.</p>
+                </div>
+            </div>
+
+            <div class="section-block">
+                <h2>Leadership Experience &amp; Activities</h2>
+                <div class="entry">
+                    <h4>Computer Science Club</h4>
+                    <div class="meta">President (2022–2023), Vice President (2021–2022) · Fall 2021 – Summer 2023</div>
+                    <p>Led workshops, coding challenges, and networking events.</p>
+                </div>
+                <div class="entry">
+                    <h4>Asian Culture Club</h4>
+                    <div class="meta">President (2022–2023), Member (2021–2022) · Fall 2021 – Summer 2023</div>
+                    <p>Planned large-scale events and created digital marketing materials using Photoshop.</p>
+                </div>
+                <div class="entry">
+                    <h4>Samsung Medical Center Volunteer</h4>
+                    <div class="meta">Lead Student Volunteer · July 2015 – October 2019</div>
+                    <p>Supported pediatric patients in a clinical setting.</p>
+                </div>
+            </div>
+
+            <div class="section-block">
+                <h2>Honors</h2>
+                <div class="entry">
+                    <p>Graduated with honors in high school</p>
+                    <p>Chosen as honor student at LCC</p>
+                </div>
+            </div>
         </main>
-      </div>
 
-    
-    <!--Influence-->
-<div class="card">
-    <h1>What Shaped Me</h1>
-    <p>These are the things that influenced me throughout my life.</p>
+    </div>
 </div>
 
-
-    <div class = "influence-row clearfix">
-        <img src="evangelion.jpg" alt="Neon Genesis Evangelion" class="influence-img img-right">
-        <div class = "influence-text">
-            <h2>Neon Genesis Evangelion</h2>
-            <p>
-                Evangelion taught me that peple can never fully understand each other, and that we all hurt each other in some way because of that.
-                But the point isn't to avoid people because of that, but to choose to be with them anyway even knowing that.
-            </p>
-            <p>
-                As a person who was between in both American and Korean cultures, this anime series helped me go though my wandering phase.
-            </p>
-            <a href = "https://www.netflix.com/title/81033445" target = "_blank"> Watch on Netflix</a>
-        </div>
-    </div>
-
-
-    <div class = "influence-row clearfix">
-        <img src = "carpernaum.jpg" alt = "Carpernaum movie" class = "influence-img img-left">
-        <div class = "influence text">
-            <h2>Capernaum (2018)</h2>
-            <p>
-            This movie is about a kid who takes his parents to court for bringing him into the world. 
-            It sounds strange but it makes sense once you watch it. It didn't try to make things 
-            feel okay by the end. It just showed life as it was for that kid. I sat with it for 
-            a while after it was over. That's the kind of impact I want my work to have someday. 
-            </p>
-            <a href = "https://www.imdb.com/title/tt8267604/" target = "_blank"> Watch on IMDb</a>
-        </div>
-    </div>
-
-    <div class = "influence-row clearfix">
-        <img src="fma.jpg" alt="Fullmetal Alchemist" class="influence-img img-right">
-        <div class = "influence-text">
-            <h2>Fullmetal Alchemist</h2>
-            <p>
-                FMA introduced me to the idea of equivalent exchange — you can't get something without 
-                giving something up. The Elric brothers spend the whole series trying to fix a mistake 
-                they made, but the real lesson wasn't about alchemy at all.
-            </p>
-            <p>
-                The more Ed tried to solve everything through alchemy, the further he got from the truth. 
-                The series made me realize that always chasing something more perfect, always wanting more 
-                than what you have, actually takes you further from what really matters. The answer was 
-                simpler than that — taking care of the people around you, leaning on each other, and 
-                learning to be okay with what you already have.
-            </p>
-            <p>
-                Ed only figured that out by actually going out into the world and meeting people. 
-                Not by studying harder or becoming more powerful, but through experience. 
-                That kind of growth stuck with me.
-            </p>
-            <a href = "https://www.crunchyroll.com/series/GRGGPG93R/fullmetal-alchemist-brotherhood" target = "_blank">Watch on Crunchyroll</a>
-
-        </div>
-    </div>
-
-    <hr class "divider">
-
-    <div class = "influence-row clearfix">
-        <img src = "ratshaker.jpg" alt = "RATSHAKER" class = "influence-img img-left">
-        <div class = "influence-text">
-            <h2>RATSHAKER</h2>
-            <p>
-                RATSHAKER is a small, weird game that somehow gets under your skin.
-                It doesn't look expensive or polished, but that's kind of the point. 
-                It showed me that a game doesn't need a big team or a big budget to leave an impression.
-                Sometimes the rough edges are what make it feel real. 
-            </p>
-            <a href = "https://store.steampowered.com/app/2126450/RATSHAKER/" target = "_blank"> See it on Steam</a>
-        </div>
-    </div>
-
-      <div class="influence-row clearfix">
-        <img src="buckshot.jpg" alt="Buckshot Roulette game" class="influence-img img-right">
-       <div class="influence-text">
-          <h2>Buckshot Roulette</h2>
-        <p>
-            Buckshot Roulette has one mechanic and it works really well. You're just sitting across 
-            from someone, taking turns, not knowing what's going to happen. The simplicity is what 
-            makes it tense. It taught me that you don't need a complicated system to make a player 
-            feel something. You just need the right rules.
-        </p>
-        <a href="https://store.steampowered.com/app/2835570/Buckshot_Roulette/" target="_blank">See it on Steam</a>
-        </div>
-    </div>
+<footer class="site-footer">
+    Chris Chung · Michigan State University · 2026
+</footer>
 
 </body>
-
-<footer>
-      <p>Chris Chung  |  Michigan State University  |  2025</p>
-
-</footer>
 </html>
